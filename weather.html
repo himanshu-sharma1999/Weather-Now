@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="weather.css" />
+    <title>Weather Report</title>
+  </head>
+  <body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input type="text" class="city-input" placeholder="E.g., Jodhpur" />
+        <button id="srcbtn" class="search-btn">Search</button>
+        <div class="seprator"></div>
+        <button class="location-btn">Locate Me</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2 class="city"></h2>
+            <h4 class="temp"></h4>
+            <h4 class="wind"></h4>
+            <h4 class="humidity"></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
